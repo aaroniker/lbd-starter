@@ -1,0 +1,24 @@
+@layer reset, base, tokens, recipes, utilities;
+
+body {
+  font-size: 16px;
+  line-height: 1.6;
+  margin: 0;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+svg {
+  overflow: visible;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
